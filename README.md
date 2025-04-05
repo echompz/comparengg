@@ -7,6 +7,7 @@ features:
 - GWA Calculator (General Weighted Average calculator per sem)
 - Course Prerequisite Searcher
 - View Enter Computer Engineering Curriculum
+- Light Mode or Dark Mode depending on your device
 
 made using:
 - next.js
