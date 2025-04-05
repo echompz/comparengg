@@ -14,7 +14,7 @@ export const metadata: Metadata = {
     default: 'ComParEngg Starter Pack',
     template: '%s | ComParEngg Starter Pack',
   },
-  description: 'This is the ComParEngg Starter Pack.',
+  description: 'This is my portfolio.',
   openGraph: {
     title: 'ComParEngg Starter Pack',
     description: 'This is the ComParEngg Starter Pack.',
