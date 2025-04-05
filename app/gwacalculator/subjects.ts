@@ -94,7 +94,7 @@ export interface Subject {
     { code: 'CPE0043', name: 'Methods of Research for CPE', units: '2', year: '3', semester: '2', grade: '', prerequisites: ['CPE0029', 'GED0043', 'COE0049'] },
 
     // 3RD YEAR 3RD SEM
-    { code: 'CPE0045L', name: 'CpE Practice and Design 1', units: '1', year: '3', semester: '2', grade: '', prerequisites: ['CPE0043', 'COE0059'] },
+    { code: 'CPE0045L', name: 'CpE Practice and Design 1', units: '1', year: '3', semester: '3', grade: '', prerequisites: ['CPE0043', 'COE0059'] },
     { code: 'CPE0047', name: 'OPERATING SYSTEMS (LEC)', units: '3', year: '3', semester: '3', grade: '', prerequisites: ['CPE0037'] },
     { code: 'CPE0047L', name: 'OPERATING SYSTEMS (LAB)', units: '1', year: '3', semester: '3', grade: '', prerequisites: ['CPE0037'] },
     { code: 'CPE0049', name: 'SOFTWARE DESIGN (LEC)', units: '3', year: '3', semester: '3', grade: '', prerequisites: ['CPE0033L'] },
