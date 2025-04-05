@@ -1,7 +1,7 @@
 @import 'tailwindcss';
 
 ::selection {
-  background-color: #47a3f3;
+  background-color: #363134;
   color: #fefefe;
 }
 
@@ -31,6 +31,9 @@
 
 html {
   min-width: 360px;
+  justify-content: center;
+  align-items: center;
+  //display: flex;
 }
 
 .prose .anchor {
@@ -45,6 +48,7 @@ html {
 
 .anchor:hover {
   @apply visible;
+  cursor: pointer;
 }
 
 .prose a {
@@ -143,8 +147,15 @@ table {
   max-width: fit-content;
   overflow-x: auto;
   white-space: nowrap;
+  table-layout: fixed;
+  word-wrap: break-word;
+
 }
 
 .title {
   text-wrap: balance;
+}
+
+button {
+  cursor: pointer; /* Added cursor pointer here */
 }
