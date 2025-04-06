@@ -1,6 +1,7 @@
 "use client"
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
+import { useState } from 'react'
 
 const navItems = {
   '/': {
@@ -19,6 +20,7 @@ const navItems = {
 
 export function Navbar() {
   const pathname = usePathname()  // Get the current path using usePathname()
+  const [isOpen, setIsOpen] = useState(false)  // State to manage the open/close state of the navbar
 
   return (
     <aside className="-ml-[8px] mb-16 tracking-tight">

@@ -294,7 +294,7 @@ export function GWATable() {
         </div>
       </div>
 
-               <div className="w-full sm:w-auto bg-neutral-50 dark:bg-neutral-700 px-6 py-3 rounded-md shadow-sm border border-neutral-200 dark:border-neutral-600 ">
+               <div className="w-full bg-neutral-50 dark:bg-neutral-700 px-6 py-3 rounded-md shadow-sm border border-neutral-200 dark:border-neutral-600 ">
                 <p className="text-neutral-900 dark:text-neutral-100 text-center">
                     Your GWA: <span className="font-bold text-xl ml-2">{computeGWA()}</span>
                 </p>

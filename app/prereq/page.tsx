@@ -110,7 +110,7 @@ export default function PrerequisiteSearcher() {
       <input
         type="text"
         placeholder="Search by course code or name..."
-        className="w-full px-4 py-2 bg-white dark:bg-neutral-800 rounded-lg border border-neutral-300 dark:border-neutral-600 pr-10" // Added pr-10 for padding
+        className="w-80 px-4 py-2 bg-white dark:bg-neutral-800 rounded-lg border border-neutral-300 dark:border-neutral-600 pr-10" // Added pr-10 for padding
         value={searchTerm}
         onChange={handleSearchChange}
         onKeyPress={(e) => e.key === 'Enter' && handleSearch()}

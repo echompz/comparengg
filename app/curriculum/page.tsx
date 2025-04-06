@@ -26,7 +26,7 @@ export default function Page() {
       </p>
 
       <p className="text-neutral-900 dark:text-neutral-100">
-            Total Courses: <span className="font-bold text-xl ml-2">{predefinedSubjects.length}</span>
+            Total Courses: <span className="font-bold">{predefinedSubjects.length}</span>
         </p>
 
       {/* Render Subjects Grouped by Year and Semester */}

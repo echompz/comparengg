@@ -2,15 +2,15 @@ export default function Page() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        ComParEngg FEU Tech Starter Pack
+        Hi, ComParEngg!
       </h1>
 
       <p className="mb-4">
-        {`Hi, ComParEngg! Welcome to the FEU Tech Starter Pack for Computer Engineering Students.`}
+        Welcome to the <span className="font-bold">FEU Tech Starter Pack</span> for <span className="font-bold">Computer Engineering Students.</span>
       </p>
 
       <p className="mb-4">
-        {`This site contains some tools to make your life easier.`}
+        This site contains some tools to make your life easier.
       </p>
       
       <div className="my-8 flex justify-center gap-4">
@@ -26,7 +26,7 @@ export default function Page() {
     </div>
 
     <p className="mb-4">
-        <i>{`Note: this site is NOT official or affiliated with FEU Tech or the FEU Tech CpE Department.`}</i>
+        <i>Note: this site is NOT official or affiliated with FEU Tech or the FEU Tech CpE Department.</i>
       </p>
 
     </section>

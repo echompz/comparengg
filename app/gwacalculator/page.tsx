@@ -4,7 +4,7 @@ export default function Page() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        ComParEngg GWA Calculator
+        CpE GWA Calculator
       </h1>
       <p className="mb-4">
         {`For Computer Engineering Students in FEU Tech`}
@@ -21,7 +21,7 @@ export default function Page() {
       </div>
 
       <p className="mb-4">
-        {`Disclaimer: This calculator does not store any user data.`}
+        <i>Disclaimer: This calculator does</i> not <i>store any user data.</i>
       </p>
 
       <p className="mb-4">
