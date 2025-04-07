@@ -89,6 +89,7 @@ export interface Subject {
     { code: 'CPE0035', name: 'EMBEDDED SYSTEMS (LEC)', units: '3', year: '3', semester: '2', grade: '', prerequisites: ['CPE0029'] },
     { code: 'CPE0035L', name: 'EMBEDDED SYSTEMS (LAB)', units: '1', year: '3', semester: '2', grade: '', prerequisites: ['CPE0029'] },
     { code: 'CPE0037', name: 'COMPUTER ARCHITECTURE AND ORGANIZATION (LEC)', units: '3', year: '3', semester: '2', grade: '', prerequisites: ['CPE0029'] },
+    { code: 'CPE0037', name: 'COMPUTER ARCHITECTURE AND ORGANIZATION (LAB)', units: '1', year: '3', semester: '2', grade: '', prerequisites: ['CPE0029'] },
     { code: 'CPE0039L', name: 'Introduction to Database', units: '1', year: '3', semester: '2', grade: '', prerequisites: ['CPE0017L'] },
     { code: 'CPE0041', name: 'COGNATE/TRACK COURSE 1', units: '3', year: '3', semester: '2', grade: '', prerequisites: ['CPE0031'] },
     { code: 'CPE0043', name: 'Methods of Research for CPE', units: '2', year: '3', semester: '2', grade: '', prerequisites: ['CPE0029', 'GED0043', 'COE0049'] },
