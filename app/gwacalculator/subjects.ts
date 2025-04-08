@@ -47,10 +47,10 @@ export interface Subject {
     { code: 'CPE0001', name: 'COMPUTER ENGINEERING AS A DISCIPLINE', units: '1', year: '2', semester: '1', grade: '', prerequisites: ['GED0006'] },
     { code: 'CPE0003L', name: 'Programming Logic and Design', units: '2', year: '2', semester: '1', grade: '', prerequisites: [] },
     { code: 'CPE0004L', name: 'COMPUTER HARDWARE FUNDAMENTALS', units: '1', year: '2', semester: '1', grade: '', prerequisites: [] },
-    { code: 'CPE0005', name: 'FUNDAMENTALS OF ELECTRICAL CIRCUITS (LEC)', units: '3', year: '2', semester: '1', grade: '', prerequisites: ['COE00015','COE00015L'] },
+    { code: 'CPE0005', name: 'FUNDAMENTALS OF ELECTRICAL CIRCUITS (LEC)', units: '3', year: '2', semester: '1', grade: '', prerequisites: ['COE0015','COE0015L'] },
     { code: 'GED0009', name: 'READINGS IN PHILIPPINE HISTORY', units: '3', year: '2', semester: '1', grade: '', prerequisites: [] },
     { code: 'GED0035', name: 'THE CONTEMPORARY WORLD', units: '3', year: '2', semester: '1', grade: '', prerequisites: [] },
-    { code: 'CPE0005L', name: 'FUNDAMENTALS OF ELECTRICAL CIRCUITS (LAB)', units: '1', year: '2', semester: '1', grade: '', prerequisites: ['COE00015','COE00015L'] },
+    { code: 'CPE0005L', name: 'FUNDAMENTALS OF ELECTRICAL CIRCUITS (LAB)', units: '1', year: '2', semester: '1', grade: '', prerequisites: ['COE0015','COE0015L'] },
 
     // 2ND YEAR 2ND SEM
     { code: 'COE0020', name: 'G.E. ELECTIVE - BIOENGINEERING', units: '3', year: '2', semester: '2', grade: '', prerequisites: [] },
