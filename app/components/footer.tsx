@@ -59,11 +59,11 @@ export default function Footer() {
      
       </ul>
       <p className="mt-8 text-neutral-600 dark:text-neutral-300">
-        © {new Date().getFullYear()} Created by{' '}
+        © {new Date().getFullYear()} dev by{' '}
         <a rel="noopener noreferrer"
           target="_blank"
-          href="https://github.com/xtenlei/"
-          className="transition-all dark:hover:text-neutral-100"><u>xtenlei</u></a>
+          href="https://github.com/echompz/"
+          className="transition-all dark:hover:text-neutral-100"><u>echompz</u></a>
       </p>
     </footer>
   )

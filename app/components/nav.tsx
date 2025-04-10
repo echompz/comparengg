@@ -46,6 +46,7 @@ export function Navbar() {
           } md:flex flex-col md:flex-row items-start md:items-center relative px-4 md:px-0 fade md:overflow-auto scroll-pr-6 md:relative`}
           id="nav"
         >
+          
           <div className="flex flex-col md:flex-row space-y-2 md:space-y-0 md:space-x-0 md:pr-10">
             {Object.entries(navItems).map(([path, { name }]) => {
               const isActive = pathname === path
