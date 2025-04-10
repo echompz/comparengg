@@ -122,3 +122,4 @@ export interface Subject {
     //4TH YEAR 3RD SEM
     { code: 'CPE0069', name: 'Internship 2 for CpE', units: '9', year: '4', semester: '3', grade: '' , prerequisites: ['CPE0067'] },
 ];
+0

@@ -16,12 +16,16 @@ export const metadata: Metadata = {
   },
   description: 'This is my portfolio.',
   openGraph: {
+    
     title: 'ComParEngg Starter Pack',
     description: 'This is the ComParEngg Starter Pack.',
     url: baseUrl,
     siteName: 'ComParEngg Starter Pack',
     locale: 'en_US',
     type: 'website',
+  },
+  icons:{
+    icon: "/favicon.ico",
   },
   robots: {
     index: true,
