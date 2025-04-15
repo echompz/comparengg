@@ -142,7 +142,7 @@ export default function PrerequisiteSearcher() {
       {searchResults.length > 0 && (
         <div className="mb-8 max-h-96 overflow-auto"> {/* Added max height and scrollbar */}
           <h2 className="text-lg font-medium mb-2">Search Results</h2>
-          <div className="bg-white dark:bg-neutral-800 rounded-lg shadow-sm overflow-hidden">
+          <div className="bg-white dark:bg-neutral-800 rounded-lg overflow-hidden shadow-inner">
             <table className="w-full border-collapse">
               <thead>
                 <tr className="bg-neutral-100 dark:bg-neutral-700">

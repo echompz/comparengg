@@ -10,14 +10,18 @@ const navItems = {
     name: 'home',
   },
   '/gwacalculator': {
-    name: 'gwa calculator',
+    name: 'gwa calc',
   },
   '/prereq': {
-    name: 'prerequisite searcher',
+    name: 'prereq search',
   },
   '/curriculum': {
-    name: 'cpe curriculum',
+    name: 'curriculum',
   },
+  '/undertaking': {
+    name: 'undertaking generator',
+  },
+  
 }
 
 export function Navbar() {
