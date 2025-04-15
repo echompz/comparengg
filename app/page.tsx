@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 export default function Page() {
   return (
     <section>
@@ -5,7 +7,15 @@ export default function Page() {
         Hi, ComParEngg!
       </h1>
 
-      <p className="mb-4">
+      <center>
+      <Image src="/comparengg.png"
+      width={100}
+      height={100}
+      alt="FEU Tech Logo"
+      />
+      </center>
+
+      <p className="mb-4 pt-10">
         Welcome to the <span className="font-bold">FEU Tech Starter Pack</span> for <span className="font-bold">Computer Engineering Students.</span>
       </p>
 

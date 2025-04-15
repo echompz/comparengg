@@ -142,10 +142,10 @@ export default function PrerequisiteSearcher() {
       {searchResults.length > 0 && (
         <div className="mb-8 max-h-96 overflow-auto"> {/* Added max height and scrollbar */}
           <h2 className="text-lg font-medium mb-2">Search Results</h2>
-          <div className="bg-white dark:bg-neutral-800 rounded-lg overflow-hidden shadow-inner">
+          <div className="bg-neutral-50 dark:bg-neutral-800 rounded-lg overflow-hidden shadow-inner">
             <table className="w-full border-collapse">
               <thead>
-                <tr className="bg-neutral-100 dark:bg-neutral-700">
+                <tr className="bg-neutral-200 dark:bg-neutral-700 text-neutral-600">
                   <th className="p-3 text-left">Code</th>
                   <th className="p-3 text-left" style={{ width: "250px", wordWrap: "break-word", whiteSpace: "normal" }}>Name</th>
                   <th className="p-3 text-center">Units</th>
@@ -156,7 +156,7 @@ export default function PrerequisiteSearcher() {
               </thead>
               <tbody>
                 {searchResults.map(subject => (
-                  <tr key={subject.code} className="border-t dark:border-neutral-700">
+                  <tr key={subject.code} className="border-t border-neutral-400 dark:border-neutral-700 text-neutral-800">
                     <td className="p-3">{subject.code}</td>
                     <td className="p-3" style={{ width: "250px", wordWrap: "break-word", whiteSpace: "normal" }}>{subject.name}</td>
                     <td className="p-3 text-center">{subject.units}</td>
@@ -165,7 +165,7 @@ export default function PrerequisiteSearcher() {
                     <td className="p-3 text-center">
                       <button
                         onClick={() => handleSelectSubject(subject)}
-                        className="px-3 py-1 bg-white dark:bg-neutral-600 rounded-lg hover:bg-blue-500 transition-colors flex items-center justify-center text-sm"
+                        className="px-3 py-1 bg-neutral-200 dark:bg-neutral-600 rounded-lg hover:bg-blue-500 transition-colors flex items-center justify-center text-sm"
                       >
                         View
                       </button>

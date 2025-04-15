@@ -8,7 +8,7 @@ export default function UploadPage() {
         CpE Undertaking Generator
       </h1>
       <p className="mb-4">
-        {`This site does not store any personal data. We do not collect, retain, or share any information that could identify you`}
+        {`This site does not store any personal data. We do not collect, retain, or share any information that could identify you.`}
       </p>
       <DocumentUploader />
     </section>
